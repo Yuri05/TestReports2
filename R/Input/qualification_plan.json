@@ -1,0 +1,233 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/v2.3/schemas/OSP_Qualification_Plan_Schema.json",
+  "Projects": [
+    {
+      "Id": "Fluvoxamine",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Model/alt_v1.0/Fluvoxamine-Model.json"
+    },
+    {
+      "Id": "Caffeine-Fluvoxamine-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Caffeine-DDI/alt_v1.0/Fluvoxamine-Caffeine-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Fluvoxamine",
+          "Project": "Fluvoxamine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Fluvoxamine tablet",
+          "Project": "Fluvoxamine"
+        }
+      ],
+      "SimulationParameters": []
+    }
+  ],
+  "ObservedDataSets": [
+    {
+      "Id": "DDI Ratios",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.4/DDI.csv",
+      "Type": "DDIRatio"
+    }
+  ],
+  "Plots": {
+    "AxesSettings": {
+      "GOFMergedPlotsPredictedVsObserved": [
+        {
+          "Type": "X",
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsResidualsOverTime": [
+        {
+          "Type": "X",
+          "Dimension": "Time",
+          "Unit": "h",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Linear"
+        }
+      ],
+      "ComparisonTimeProfile": [
+        {
+          "Type": "X",
+          "Dimension": "Time",
+          "Unit": "h",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsPredictedVsObserved": [
+        {
+          "Type": "X",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsResidualsVsObserved": [
+        {
+          "Type": "X",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "PKRatioPlots": [
+        {
+          "Type": "X",
+          "Dimension": "Age",
+          "Unit": "year(s)",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ]
+    },
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 9,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
+    },
+    "AllPlots": [],
+    "GOFMergedPlots": [],
+    "ComparisonTimeProfilePlots": [
+      {
+        "SectionId": 1,
+        "Title": "Culm-Merdeck 2005 (Caffeine 250 mg po)",
+        "SimulationDuration": 50,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Caffeine-Fluvoxamine-DDI",
+            "Simulation": "Caffeine 250mg po",
+            "Output": "Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox",
+            "StartTime": 25,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Fluvoxamine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Caffeine-Fluvoxamine-DDI",
+            "Simulation": "Caffeine 250mg 120mg predose po100mg Fluvox",
+            "Output": "Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI",
+            "StartTime": 25,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Fluvoxamine",
+            "Symbol": "Square"
+          }
+        ]
+      }
+    ],
+    "DDIRatioPlots": [
+      {
+        "SectionId": 1,
+        "Title": "CYP1A2 DDI",
+        "PKParameter": "AUC|CMAX",
+        "PlotType": "predictedVsObserved|residualsVsObserved",
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure",
+          "Table"
+        ],
+        "Groups": [
+          {
+            "Caption": "Caffeine + Fluvoxamine",
+            "Color": "#008000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 14006,
+                "SimulationControl": {
+                  "Project": "Caffeine-Fluvoxamine-DDI",
+                  "Simulation": "Caffeine 250mg po",
+                  "StartTime": 25,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Caffeine-Fluvoxamine-DDI",
+                  "Simulation": "Caffeine 250mg 120mg predose po100mg Fluvox",
+                  "StartTime": 25,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Inputs": [],
+  "Sections": [
+    {
+      "Id": 1,
+      "Title": "1 Introduction",
+      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+    }
+  ],
+  "Intro": [
+    {
+      "Path": "Content/titlepage.md"
+    }
+  ]
+}

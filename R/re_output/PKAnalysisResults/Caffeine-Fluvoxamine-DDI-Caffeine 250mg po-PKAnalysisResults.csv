@@ -1,0 +1,17 @@
+﻿"IndividualId","QuantityPath","Parameter","Value","Unit"
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","C_max",29.666641,µmol/l
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","C_max_norm",1682288.4,mg/l
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","t_max",25.65,h
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","C_tEnd",0.33720478,µmol/l
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","AUC_tEnd",10583.403,µmol*min/l
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",6.001467E+11,µg*min/l
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","AUC_inf",10683.067,µmol*min/l
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","AUC_inf_norm",6.057983E+11,µg*min/l
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","MRT",31.053656,h
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","Thalf",3.414435,h
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.009329157,
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","CL",1.6507144,ml/min/kg
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","Vss",3075.6433,ml/kg
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","Vd",487.88397,ml/kg
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","AUC_tEnd_tStartTime_1500",10583.403,µmol*min/l
+0,"Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)","C_max_tStartTime_1500",29.666641,µmol/l

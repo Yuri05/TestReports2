@@ -1,0 +1,1 @@
+A dynamical DDI simulation with ethinylestradiol as CYP1A2 inhibitor and caffeine as victim was conducted and compared to literature data. No profiles of caffeine under this interaction were available, but [Balogh 1995](#5-references) reported a 55% decrease in caffeine CL due to ethinylestradiol co-administration and report AUCR and CmaxR.

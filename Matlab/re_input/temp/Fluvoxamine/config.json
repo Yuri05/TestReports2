@@ -1,0 +1,14 @@
+{
+  "Project": "Fluvoxamine",
+  "SnapshotFile": "C:\\0\\4mail\\Qualification-DDI-CYP1A2\\re_input\\temp\\_project\\Fluvoxamine-Model.json",
+  "OutputFolder": "C:\\0\\4mail\\Qualification-DDI-CYP1A2\\re_input",
+  "ObservedDataFolder": "C:\\0\\4mail\\Qualification-DDI-CYP1A2\\re_input\\ObservedData",
+  "InputsFolder": "C:\\0\\4mail\\Qualification-DDI-CYP1A2\\re_input\\Inputs",
+  "MappingFile": "C:\\0\\4mail\\Qualification-DDI-CYP1A2\\re_input\\temp\\Fluvoxamine\\mapping.json",
+  "TempFolder": "C:\\0\\4mail\\Qualification-DDI-CYP1A2\\re_input\\temp\\Fluvoxamine",
+  "ReportConfigurationFile": "C:\\0\\4mail\\Qualification-DDI-CYP1A2\\re_input\\report-configuration-plan.json",
+  "SimulationPlots": [],
+  "Inputs": [],
+  "BuildingBlocks": [],
+  "Simulations": []
+}

@@ -1,0 +1,29 @@
+{
+  "Project": "Caffeine-Fluvoxamine-DDI",
+  "SnapshotFile": "C:/0/4mail/re_input\\temp\\_project\\Fluvoxamine-Caffeine-DDI.json",
+  "OutputFolder": "C:/0/4mail/re_input",
+  "ObservedDataFolder": "C:/0/4mail/re_input\\ObservedData",
+  "InputsFolder": "C:/0/4mail/re_input\\Inputs",
+  "MappingFile": "C:/0/4mail/re_input\\temp\\Caffeine-Fluvoxamine-DDI\\mapping.json",
+  "TempFolder": "C:/0/4mail/re_input\\temp\\Caffeine-Fluvoxamine-DDI",
+  "ReportConfigurationFile": "C:/0/4mail/re_input\\report-configuration-plan.json",
+  "SimulationPlots": [],
+  "Inputs": [],
+  "BuildingBlocks": [
+    {
+      "Type": "Compound",
+      "Name": "Fluvoxamine",
+      "SnapshotFile": "C:/0/4mail/re_input\\temp\\_project\\Fluvoxamine-Model.json"
+    },
+    {
+      "Type": "Formulation",
+      "Name": "Fluvoxamine tablet",
+      "SnapshotFile": "C:/0/4mail/re_input\\temp\\_project\\Fluvoxamine-Model.json"
+    }
+  ],
+  "SimulationParameters": [],
+  "Simulations": [
+    "Caffeine 250mg po",
+    "Caffeine 250mg 120mg predose po100mg Fluvox"
+  ]
+}

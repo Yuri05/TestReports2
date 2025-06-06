@@ -1,0 +1,135 @@
+{
+  "SimulationMappings": [],
+  "ObservedDataMappings": [
+    {
+      "Id": "Iga2015.Fluvoxamine.50mg.iv",
+      "Path": "ObservedData/Iga2015.Fluvoxamine.50mg.iv.csv"
+    },
+    {
+      "Id": "Iga2015.Fluvoxamine.50mg.oral",
+      "Path": "ObservedData/Iga2015.Fluvoxamine.50mg.oral.csv"
+    },
+    {
+      "Id": "DeVries1993.Fluvoxamine.25mg.po.solution",
+      "Path": "ObservedData/DeVries1993.Fluvoxamine.25mg.po.solution.csv"
+    },
+    {
+      "Id": "DeVries1993.Fluvoxamine.50mg.po.solution",
+      "Path": "ObservedData/DeVries1993.Fluvoxamine.50mg.po.solution.csv"
+    },
+    {
+      "Id": "DeVries1993.Fluvoxamine.100mg.po.solution",
+      "Path": "ObservedData/DeVries1993.Fluvoxamine.100mg.po.solution.csv"
+    },
+    {
+      "Id": "Fm.Fluvoxamine.2D6",
+      "Path": "ObservedData/Fm.Fluvoxamine.2D6.csv"
+    },
+    {
+      "Id": "Fm.Fluvoxamine.1A2",
+      "Path": "ObservedData/Fm.Fluvoxamine.1A2.csv"
+    },
+    {
+      "Id": "Kuni2005.Fluvoxamine.50.po.sd",
+      "Path": "ObservedData/Kuni2005.Fluvoxamine.50.po.sd.csv"
+    },
+    {
+      "Id": "Culm-Merdek2005.Fluvoxamine.100.po.bid.postDose3",
+      "Path": "ObservedData/Culm-Merdek2005.Fluvoxamine.100.po.bid.postDose3.csv"
+    },
+    {
+      "Id": "Fukasama2006.Fluvoxamine.50.po.sd",
+      "Path": "ObservedData/Fukasama2006.Fluvoxamine.50.po.sd.csv"
+    },
+    {
+      "Id": "Orlando2009.Fluvoxamine.50.poSD.Elderly",
+      "Path": "ObservedData/Orlando2009.Fluvoxamine.50.poSD.Elderly.csv"
+    },
+    {
+      "Id": "Orlando2009.Fluvoxamine.50.poSD.young",
+      "Path": "ObservedData/Orlando2009.Fluvoxamine.50.poSD.young.csv"
+    },
+    {
+      "Id": "Fleishaker1994.Fluvoxamine.50.po.qd.day1and2",
+      "Path": "ObservedData/Fleishaker1994.Fluvoxamine.50.po.qd.day1and2.csv"
+    },
+    {
+      "Id": "Fleishaker1994.Fluvoxamine.100.po.qd.day3to10",
+      "Path": "ObservedData/Fleishaker1994.Fluvoxamine.100.po.qd.day3to10.csv"
+    },
+    {
+      "Id": "Labellarte2004.Fluvoxamine.25.po.bid.Day7",
+      "Path": "ObservedData/Labellarte2004.Fluvoxamine.25.po.bid.Day7.csv"
+    },
+    {
+      "Id": "Labellarte2004.Fluvoxamine.50.po.bid.Day14",
+      "Path": "ObservedData/Labellarte2004.Fluvoxamine.50.po.bid.Day14.csv"
+    },
+    {
+      "Id": "Labellarte2004.Fluvoxamine.100.po.bid.Day28",
+      "Path": "ObservedData/Labellarte2004.Fluvoxamine.100.po.bid.Day28.csv"
+    },
+    {
+      "Id": "Labellarte2004.Fluvoxamine.150.po.bid.Day42",
+      "Path": "ObservedData/Labellarte2004.Fluvoxamine.150.po.bid.Day42.csv"
+    },
+    {
+      "Id": "Spigset1998.Fluvoxamine.MAD.PO.bid.trough",
+      "Path": "ObservedData/Spigset1998.Fluvoxamine.MAD.PO.bid.trough.csv"
+    },
+    {
+      "Id": "Spigset1998.Fluvoxamine.MAD.PO.bid.week4",
+      "Path": "ObservedData/Spigset1998.Fluvoxamine.MAD.PO.bid.week4.csv"
+    },
+    {
+      "Id": "Spigset1995.Fluvoxamine.50mg.po.sd",
+      "Path": "ObservedData/Spigset1995.Fluvoxamine.50mg.po.sd.csv"
+    },
+    {
+      "Id": "FDAreview.Fluvoxamine.p18.enteric coated.MD.100",
+      "Path": "ObservedData/FDAreview.Fluvoxamine.p18.enteric coated.MD.100.csv"
+    },
+    {
+      "Id": "FDAreview.Fluvoxamine.p37.CR.MD.100",
+      "Path": "ObservedData/FDAreview.Fluvoxamine.p37.CR.MD.100.csv"
+    },
+    {
+      "Id": "FDAreview.Fluvoxamine.p37.CR.MD.200",
+      "Path": "ObservedData/FDAreview.Fluvoxamine.p37.CR.MD.200.csv"
+    },
+    {
+      "Id": "FDAreview.Fluvoxamine.p37.CR.MD.300",
+      "Path": "ObservedData/FDAreview.Fluvoxamine.p37.CR.MD.300.csv"
+    },
+    {
+      "Id": "FDAreview.Fluvoxamine.100.sd.Luvox",
+      "Path": "ObservedData/FDAreview.Fluvoxamine.100.sd.Luvox.csv"
+    },
+    {
+      "Id": "Spigset1995.Fluvoxamine.50mg.po.sd.smokers",
+      "Path": "ObservedData/Spigset1995.Fluvoxamine.50mg.po.sd.smokers.csv"
+    },
+    {
+      "Id": "Carillo1996.Fluvoxamine.50mg.po.sd.Non-smokingEM",
+      "Path": "ObservedData/Carillo1996.Fluvoxamine.50mg.po.sd.Non-smokingEM.csv"
+    },
+    {
+      "Id": "Carillo1996.Fluvoxamine.50mg.po.sd.SmokingEM",
+      "Path": "ObservedData/Carillo1996.Fluvoxamine.50mg.po.sd.SmokingEM.csv"
+    },
+    {
+      "Id": "Carillo1996.Fluvoxamine.50mg.po.sd.Non-SmokingPM",
+      "Path": "ObservedData/Carillo1996.Fluvoxamine.50mg.po.sd.Non-SmokingPM.csv"
+    },
+    {
+      "Id": "Spigset1997.Fluvoxamine.50mg.sd.po.PM",
+      "Path": "ObservedData/Spigset1997.Fluvoxamine.50mg.sd.po.PM.csv"
+    },
+    {
+      "Id": "Spigset1997.Fluvoxamine.50mg.sd.po.EM",
+      "Path": "ObservedData/Spigset1997.Fluvoxamine.50mg.sd.po.EM.csv"
+    }
+  ],
+  "Plots": [],
+  "Inputs": []
+}

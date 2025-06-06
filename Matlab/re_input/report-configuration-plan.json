@@ -1,0 +1,368 @@
+{
+  "SimulationMappings": [
+    {
+      "Project": "Caffeine-Fluvoxamine-DDI",
+      "Simulation": "Caffeine 250mg po",
+      "Path": "Caffeine-Fluvoxamine-DDI/Caffeine 250mg po/",
+      "SimulationFile": "Caffeine 250mg po"
+    },
+    {
+      "Project": "Caffeine-Fluvoxamine-DDI",
+      "Simulation": "Caffeine 250mg 120mg predose po100mg Fluvox",
+      "Path": "Caffeine-Fluvoxamine-DDI/Caffeine 250mg 120mg predose po100mg Fluvox/",
+      "SimulationFile": "Caffeine 250mg 120mg predose po100mg Fluvox"
+    }
+  ],
+  "ObservedDataSets": [
+    {
+      "Id": "Iga2015.Fluvoxamine.50mg.iv",
+      "Path": "ObservedData/Iga2015.Fluvoxamine.50mg.iv.csv"
+    },
+    {
+      "Id": "Iga2015.Fluvoxamine.50mg.oral",
+      "Path": "ObservedData/Iga2015.Fluvoxamine.50mg.oral.csv"
+    },
+    {
+      "Id": "DeVries1993.Fluvoxamine.25mg.po.solution",
+      "Path": "ObservedData/DeVries1993.Fluvoxamine.25mg.po.solution.csv"
+    },
+    {
+      "Id": "DeVries1993.Fluvoxamine.50mg.po.solution",
+      "Path": "ObservedData/DeVries1993.Fluvoxamine.50mg.po.solution.csv"
+    },
+    {
+      "Id": "DeVries1993.Fluvoxamine.100mg.po.solution",
+      "Path": "ObservedData/DeVries1993.Fluvoxamine.100mg.po.solution.csv"
+    },
+    {
+      "Id": "Fm.Fluvoxamine.2D6",
+      "Path": "ObservedData/Fm.Fluvoxamine.2D6.csv"
+    },
+    {
+      "Id": "Fm.Fluvoxamine.1A2",
+      "Path": "ObservedData/Fm.Fluvoxamine.1A2.csv"
+    },
+    {
+      "Id": "Kuni2005.Fluvoxamine.50.po.sd",
+      "Path": "ObservedData/Kuni2005.Fluvoxamine.50.po.sd.csv"
+    },
+    {
+      "Id": "Culm-Merdek2005.Fluvoxamine.100.po.bid.postDose3",
+      "Path": "ObservedData/Culm-Merdek2005.Fluvoxamine.100.po.bid.postDose3.csv"
+    },
+    {
+      "Id": "Fukasama2006.Fluvoxamine.50.po.sd",
+      "Path": "ObservedData/Fukasama2006.Fluvoxamine.50.po.sd.csv"
+    },
+    {
+      "Id": "Orlando2009.Fluvoxamine.50.poSD.Elderly",
+      "Path": "ObservedData/Orlando2009.Fluvoxamine.50.poSD.Elderly.csv"
+    },
+    {
+      "Id": "Orlando2009.Fluvoxamine.50.poSD.young",
+      "Path": "ObservedData/Orlando2009.Fluvoxamine.50.poSD.young.csv"
+    },
+    {
+      "Id": "Fleishaker1994.Fluvoxamine.50.po.qd.day1and2",
+      "Path": "ObservedData/Fleishaker1994.Fluvoxamine.50.po.qd.day1and2.csv"
+    },
+    {
+      "Id": "Fleishaker1994.Fluvoxamine.100.po.qd.day3to10",
+      "Path": "ObservedData/Fleishaker1994.Fluvoxamine.100.po.qd.day3to10.csv"
+    },
+    {
+      "Id": "Labellarte2004.Fluvoxamine.25.po.bid.Day7",
+      "Path": "ObservedData/Labellarte2004.Fluvoxamine.25.po.bid.Day7.csv"
+    },
+    {
+      "Id": "Labellarte2004.Fluvoxamine.50.po.bid.Day14",
+      "Path": "ObservedData/Labellarte2004.Fluvoxamine.50.po.bid.Day14.csv"
+    },
+    {
+      "Id": "Labellarte2004.Fluvoxamine.100.po.bid.Day28",
+      "Path": "ObservedData/Labellarte2004.Fluvoxamine.100.po.bid.Day28.csv"
+    },
+    {
+      "Id": "Labellarte2004.Fluvoxamine.150.po.bid.Day42",
+      "Path": "ObservedData/Labellarte2004.Fluvoxamine.150.po.bid.Day42.csv"
+    },
+    {
+      "Id": "Spigset1998.Fluvoxamine.MAD.PO.bid.trough",
+      "Path": "ObservedData/Spigset1998.Fluvoxamine.MAD.PO.bid.trough.csv"
+    },
+    {
+      "Id": "Spigset1998.Fluvoxamine.MAD.PO.bid.week4",
+      "Path": "ObservedData/Spigset1998.Fluvoxamine.MAD.PO.bid.week4.csv"
+    },
+    {
+      "Id": "Spigset1995.Fluvoxamine.50mg.po.sd",
+      "Path": "ObservedData/Spigset1995.Fluvoxamine.50mg.po.sd.csv"
+    },
+    {
+      "Id": "FDAreview.Fluvoxamine.p18.enteric coated.MD.100",
+      "Path": "ObservedData/FDAreview.Fluvoxamine.p18.enteric coated.MD.100.csv"
+    },
+    {
+      "Id": "FDAreview.Fluvoxamine.p37.CR.MD.100",
+      "Path": "ObservedData/FDAreview.Fluvoxamine.p37.CR.MD.100.csv"
+    },
+    {
+      "Id": "FDAreview.Fluvoxamine.p37.CR.MD.200",
+      "Path": "ObservedData/FDAreview.Fluvoxamine.p37.CR.MD.200.csv"
+    },
+    {
+      "Id": "FDAreview.Fluvoxamine.p37.CR.MD.300",
+      "Path": "ObservedData/FDAreview.Fluvoxamine.p37.CR.MD.300.csv"
+    },
+    {
+      "Id": "FDAreview.Fluvoxamine.100.sd.Luvox",
+      "Path": "ObservedData/FDAreview.Fluvoxamine.100.sd.Luvox.csv"
+    },
+    {
+      "Id": "Spigset1995.Fluvoxamine.50mg.po.sd.smokers",
+      "Path": "ObservedData/Spigset1995.Fluvoxamine.50mg.po.sd.smokers.csv"
+    },
+    {
+      "Id": "Carillo1996.Fluvoxamine.50mg.po.sd.Non-smokingEM",
+      "Path": "ObservedData/Carillo1996.Fluvoxamine.50mg.po.sd.Non-smokingEM.csv"
+    },
+    {
+      "Id": "Carillo1996.Fluvoxamine.50mg.po.sd.SmokingEM",
+      "Path": "ObservedData/Carillo1996.Fluvoxamine.50mg.po.sd.SmokingEM.csv"
+    },
+    {
+      "Id": "Carillo1996.Fluvoxamine.50mg.po.sd.Non-SmokingPM",
+      "Path": "ObservedData/Carillo1996.Fluvoxamine.50mg.po.sd.Non-SmokingPM.csv"
+    },
+    {
+      "Id": "Spigset1997.Fluvoxamine.50mg.sd.po.PM",
+      "Path": "ObservedData/Spigset1997.Fluvoxamine.50mg.sd.po.PM.csv"
+    },
+    {
+      "Id": "Spigset1997.Fluvoxamine.50mg.sd.po.EM",
+      "Path": "ObservedData/Spigset1997.Fluvoxamine.50mg.sd.po.EM.csv"
+    },
+    {
+      "Id": "Jeppesen1996.Caffeine.200.po.day8.No_Fluvox",
+      "Path": "ObservedData/Jeppesen1996.Caffeine.200.po.day8.No_Fluvox.csv"
+    },
+    {
+      "Id": "Jeppesen1996.Caffeine.200.po.day8.With_Fluvox",
+      "Path": "ObservedData/Jeppesen1996.Caffeine.200.po.day8.With_Fluvox.csv"
+    },
+    {
+      "Id": "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox",
+      "Path": "ObservedData/Culm-Merdeck2005.Caffeine.250.po.No_Fluvox.csv"
+    },
+    {
+      "Id": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI",
+      "Path": "ObservedData/CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI.csv"
+    },
+    {
+      "Id": "DDI Ratios",
+      "Path": "ObservedData/DDI.csv",
+      "Type": "DDIRatio"
+    }
+  ],
+  "Plots": {
+    "AxesSettings": {
+      "GOFMergedPlotsPredictedVsObserved": [
+        {
+          "Type": "X",
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsResidualsOverTime": [
+        {
+          "Type": "X",
+          "Dimension": "Time",
+          "Unit": "h",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Linear"
+        }
+      ],
+      "ComparisonTimeProfile": [
+        {
+          "Type": "X",
+          "Dimension": "Time",
+          "Unit": "h",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsPredictedVsObserved": [
+        {
+          "Type": "X",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsResidualsVsObserved": [
+        {
+          "Type": "X",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "PKRatioPlots": [
+        {
+          "Type": "X",
+          "Dimension": "Age",
+          "Unit": "year(s)",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ]
+    },
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 9,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
+    },
+    "GOFMergedPlots": [],
+    "ComparisonTimeProfilePlots": [
+      {
+        "SectionId": 1,
+        "Title": "Culm-Merdeck 2005 (Caffeine 250 mg po)",
+        "SimulationDuration": 50,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Caffeine-Fluvoxamine-DDI",
+            "Simulation": "Caffeine 250mg po",
+            "Output": "Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox",
+            "StartTime": 25,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Fluvoxamine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Caffeine-Fluvoxamine-DDI",
+            "Simulation": "Caffeine 250mg 120mg predose po100mg Fluvox",
+            "Output": "Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI",
+            "StartTime": 25,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Fluvoxamine",
+            "Symbol": "Square"
+          }
+        ]
+      }
+    ],
+    "DDIRatioPlots": [
+      {
+        "SectionId": 1,
+        "Title": "CYP1A2 DDI",
+        "PKParameter": "AUC|CMAX",
+        "PlotType": "predictedVsObserved|residualsVsObserved",
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure",
+          "Table"
+        ],
+        "Groups": [
+          {
+            "Caption": "Caffeine + Fluvoxamine",
+            "Color": "#008000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 14006,
+                "SimulationControl": {
+                  "Project": "Caffeine-Fluvoxamine-DDI",
+                  "Simulation": "Caffeine 250mg po",
+                  "StartTime": 25,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Caffeine-Fluvoxamine-DDI",
+                  "Simulation": "Caffeine 250mg 120mg predose po100mg Fluvox",
+                  "StartTime": 25,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "TimeProfile": []
+  },
+  "Inputs": [],
+  "Sections": [
+    {
+      "Id": 1,
+      "Title": "1 Introduction",
+      "Content": "Content/Empty.md",
+      "Sections": []
+    }
+  ],
+  "Intro": [
+    {
+      "Path": "Intro/titlepage.md"
+    }
+  ]
+}

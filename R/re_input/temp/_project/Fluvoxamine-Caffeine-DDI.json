@@ -1,0 +1,2223 @@
+{
+  "Version": 78,
+  "Individuals": [
+    {
+      "Name": "Caucasian - 1A2,2D6",
+      "Seed": 618102671,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 39.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.4,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 51.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.00768702814
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.768702814
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233E-06
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0208304736
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099E-05
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0223404255
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP1A2",
+          "Type": "Enzyme",
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+          "Ontogeny": {
+            "Name": "CYP1A2"
+          }
+        },
+        {
+          "Name": "CYP2D6",
+          "Type": "Enzyme",
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+          "Ontogeny": {
+            "Name": "CYP2D6"
+          }
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Fluvoxamine",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "LogP Alqahtani2016",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.38,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Alqahtani 2016"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "fu Alqahtani2016",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.23,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Alqahtani 2016"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Water Solubility - Pubchem",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.062,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "PubChem 9560989"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.4,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "PubChem 9560989"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 1.2322894625E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.16,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Alqahtani 2016"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "rCYP450_FirstOrder",
+          "DataSource": "Linear_Fit_1A2_rec",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "In vitro CL/recombinant enzyme",
+              "Value": 0.5382573259,
+              "Unit": "µl/min/pmol rec. enzyme"
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "MM_2D6_rec",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 55.0,
+              "Unit": "nmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.00097708157358,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.0362433252,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Assumption"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Iga2016_Tab2_CAF",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 2.97,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Iga 2016"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Iga 2016 in vivo unbound KI - Omeprazole",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 3.6,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Iga 2016"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Iga 2016 in vivo unbound KI - S-mephenytoine",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 2.6,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Iga 2016"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Fit-Tizanidine",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.8697,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Description": "Fit to tizanidine concentrations"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "F",
+          "Value": 3.0,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00176"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 318.3346,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00176"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Caffeine",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "DrugBank",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": -0.07,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Hansch, C., Leo, A., D. Hoekman. Exploring QSAR - Hydrophobic, Electronic, and Steric Constants. Washington, DC: American Chemical Society., 1995., p. 44"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Lelo et al. 1986",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.7,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Lelo et al. 1986"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Water solubility",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 21600.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Caffeine_human_PO",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 2.972939024E-07,
+              "Unit": "cm/s"
+            }
+          ]
+        },
+        {
+          "Name": "Caffeine_mouse_PO",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 1.1891756096E-06,
+              "Unit": "cm/s"
+            }
+          ]
+        },
+        {
+          "Name": "fitted",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 3.0299999999999998E-06,
+              "Unit": "dm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 0.8
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "MM",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 109.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 14.7,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "KidneyClearance",
+          "DataSource": "Birkett and Miners 1991",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.7
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.01033051,
+              "Unit": "ml/min/kg"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - PK-Sim Standard",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 194.2,
+          "Unit": "g/mol"
+        }
+      ],
+      "Description": "Version 1.1"
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Fluvoxamine tablet",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 10.0,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Method": "ManualFit"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 30.0,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Method": "ManualFit"
+          }
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.92
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Solution",
+      "FormulationType": "Formulation_Dissolved"
+    },
+    {
+      "Name": "Particle dissolution",
+      "FormulationType": "Formulation_Particles",
+      "Parameters": [
+        {
+          "Name": "Thickness (unstirred water layer)",
+          "Value": 20.0,
+          "Unit": "µm"
+        },
+        {
+          "Name": "Type of particle size distribution",
+          "Value": 0.0
+        },
+        {
+          "Name": "Particle radius (mean)",
+          "Value": 10.0,
+          "Unit": "µm"
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Caffeine_200",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 200.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 168.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Jeppesen1996_Fluvo",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 36.65,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 4.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 77.6,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 96.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 8.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Culm-Merdeck_Fluvox_100mg bid day1 and 2",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 77.3,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 77.3,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 8.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 3",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 77.3,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 23.5,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 4",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 77.3,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 33.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Caffeine_250_culm-merdek",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 250.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 25.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Culm-Merdek_with_predose",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 250.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 25.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 120.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 8.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Caffeine 200mg po",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Jeppesen1996.Caffeine.200.po.day8.No_Fluvox"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 192.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Caffeine_200|Particle dissolution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Caucasian - 1A2,2D6",
+      "Compounds": [
+        {
+          "Name": "Caffeine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Caffeine_human_PO",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-MM",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Renal Clearances-Birkett and Miners 1991",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Caffeine_200",
+            "Formulations": [
+              {
+                "Name": "Particle dissolution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Caffeine simulated",
+              "X": "Time",
+              "Y": "Caffeine 200mg po|Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Jeppesen1996.Caffeine.200.po.day8.No_Fluvox",
+              "X": "Jeppesen1996.Caffeine.200.po.day8.No_Fluvox|Time",
+              "Y": "Jeppesen1996.Caffeine.200.po.day8.No_Fluvox|ObservedData|Peripheral Venous Blood|Plasma|Caffeine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Caffeine 200mg po",
+          "Title": "Caffeine 200mg po",
+          "OriginText": "Caffeine-Fluvoxamine-DDI\nCaffeine 200mg po\n2020-07-30 14:05"
+        }
+      ]
+    },
+    {
+      "Name": "Caffeine 250mg po",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Caffeine_250_culm-merdek|Particle dissolution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Caucasian - 1A2,2D6",
+      "Compounds": [
+        {
+          "Name": "Caffeine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Caffeine_human_PO",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-MM",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Renal Clearances-Birkett and Miners 1991",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Caffeine_250_culm-merdek",
+            "Formulations": [
+              {
+                "Name": "Particle dissolution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 34.76573,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Caffeine simulated",
+              "X": "Time",
+              "Y": "Caffeine 250mg po|Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox",
+              "X": "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox|Time",
+              "Y": "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox|ObservedData|Peripheral Venous Blood|Plasma|Caffeine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Caffeine 250mg po",
+          "OriginText": "Caffeine-Fluvoxamine-DDI\nCaffeine 250mg po\n2020-07-30 20:40"
+        }
+      ]
+    },
+    {
+      "Name": "Caffeine 200mg po 400g Fluvox",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Jeppesen1996.Caffeine.200.po.day8.With_Fluvox"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 290.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Caffeine_200|Particle dissolution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Jeppesen1996_Fluvo|Fluvoxamine tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Caucasian - 1A2,2D6",
+      "Compounds": [
+        {
+          "Name": "Caffeine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Caffeine_human_PO",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-MM",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Renal Clearances-Birkett and Miners 1991",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Caffeine_200",
+            "Formulations": [
+              {
+                "Name": "Particle dissolution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Fluvoxamine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-Linear_Fit_1A2_rec",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2D6-MM_2D6_rec",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Jeppesen1996_Fluvo",
+            "Formulations": [
+              {
+                "Name": "Fluvoxamine tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 25.1789,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Caffeine simulated",
+              "X": "Time",
+              "Y": "Caffeine 200mg po 400g Fluvox|Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Jeppesen1996.Caffeine.200.po.day8.With_Fluvox",
+              "X": "Jeppesen1996.Caffeine.200.po.day8.With_Fluvox|Time",
+              "Y": "Jeppesen1996.Caffeine.200.po.day8.With_Fluvox|ObservedData|Peripheral Venous Blood|Plasma|Caffeine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Caffeine 200mg po 400mg Fluvoxamine",
+          "Title": "Caffeine 200mg po 400mg Fluvoxamine",
+          "OriginText": "Caffeine-Fluvoxamine-DDI\nCaffeine 200mg po 400g Fluvox\n2020-07-30 14:46"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP1A2-Iga2016_Tab2_CAF",
+          "MoleculeName": "CYP1A2",
+          "CompoundName": "Fluvoxamine"
+        }
+      ]
+    },
+    {
+      "Name": "Caffeine 250mg 120mg predose po100mg Fluvox",
+      "Model": "4Comp",
+      "ObservedData": [
+        "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Culm-Merdeck_Fluvox_100mg bid day1 and 2|Fluvoxamine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Culm-Merdeck_Fluvox_100mg bid day1 and 2|Fluvoxamine tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Culm-Merdeck_Fluvox_100mg bid day1 and 2|Fluvoxamine tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Culm-Merdeck_Fluvox_100mg bid day1 and 2|Fluvoxamine tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Culm-Merdek_with_predose|Particle dissolution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Culm-Merdek_with_predose|Particle dissolution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Caucasian - 1A2,2D6",
+      "Compounds": [
+        {
+          "Name": "Caffeine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Caffeine_human_PO",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-MM",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Renal Clearances-Birkett and Miners 1991",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Culm-Merdek_with_predose",
+            "Formulations": [
+              {
+                "Name": "Particle dissolution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Fluvoxamine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-Linear_Fit_1A2_rec",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2D6-MM_2D6_rec",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Culm-Merdeck_Fluvox_100mg bid day1 and 2",
+            "Formulations": [
+              {
+                "Name": "Fluvoxamine tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 24.0,
+              "Max": 50.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 48.23843,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Caffeine simulated",
+              "X": "Time",
+              "Y": "Caffeine 250mg 120mg predose po100mg Fluvox|Organism|PeripheralVenousBlood|Caffeine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI",
+              "X": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI|Time ",
+              "Y": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI|ObservedData|Peripheral Venous Blood|Plasma|Caffeine|Conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Caffeine 250mg 129mg predose po100mg Fluvox",
+          "Title": "Caffeine 250mg 129mg predose po100mg Fluvox",
+          "OriginText": "Caffeine-Fluvoxamine-DDI\nCaffeine 250mg 120mg predose po100mg Fluvox\n2020-08-03 14:24"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP1A2-Iga2016_Tab2_CAF",
+          "MoleculeName": "CYP1A2",
+          "CompoundName": "Fluvoxamine"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Jeppesen1996.Caffeine.200.po.day8.No_Fluvox",
+      "ExtendedProperties": [
+        {
+          "Name": "File",
+          "Value": "Data_extract_Fluvoxamine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Jeppesen1996_coff"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Caffeine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Dose",
+          "Value": 200.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "ID",
+          "Value": "No_Fluvox"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Jeppesen1996.Caffeine.200.po.day8.No_Fluvox|ObservedData|Peripheral Venous Blood|Plasma|Caffeine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-06-20T13:35:36.6733596+02:00",
+            "Source": "Data_extract_Fluvoxamine.Jeppesen1996_coff.1 (ID = No_Fluvox).CentralMeasure",
+            "MolWeight": 194.2
+          },
+          "Values": [
+            13.9604654,
+            15.4766827,
+            17.5150528,
+            21.7492962,
+            14.3990316,
+            12.8551607,
+            10.4597569,
+            6.853807,
+            3.066646,
+            1.2000078
+          ],
+          "Dimension": "Concentration (molar)",
+          "Unit": "µmol/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Jeppesen1996.Caffeine.200.po.day8.No_Fluvox|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-06-20T13:35:36.6733596+02:00",
+          "Source": "Data_extract_Fluvoxamine.Jeppesen1996_coff.1 (ID = No_Fluvox).Time"
+        },
+        "Values": [
+          168.741226,
+          169.917984,
+          170.271,
+          170.859375,
+          171.2124,
+          172.1538,
+          173.918915,
+          176.037064,
+          182.156143,
+          191.80545
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Jeppesen1996.Caffeine.200.po.day8.With_Fluvox",
+      "ExtendedProperties": [
+        {
+          "Name": "File",
+          "Value": "Data_extract_Fluvoxamine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Jeppesen1996_coff"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Caffeine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Dose",
+          "Value": 200.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "ID",
+          "Value": "With_Fluvox"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Jeppesen1996.Caffeine.200.po.day8.With_Fluvox|ObservedData|Peripheral Venous Blood|Plasma|Caffeine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-06-20T13:35:36.6733596+02:00",
+            "Source": "Data_extract_Fluvoxamine.Jeppesen1996_coff.2 (ID = With_Fluvox).CentralMeasure",
+            "MolWeight": 194.2
+          },
+          "Values": [
+            16.9963856,
+            22.4541874,
+            23.6450386,
+            23.4104538,
+            21.7823887,
+            20.9068336,
+            19.6623859,
+            18.8761272,
+            18.3226986,
+            17.77396,
+            13.2138233,
+            9.829114,
+            7.16217041,
+            5.74421263,
+            3.36714482
+          ],
+          "Dimension": "Concentration (molar)",
+          "Unit": "µmol/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Jeppesen1996.Caffeine.200.po.day8.With_Fluvox|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-06-20T13:35:36.6733596+02:00",
+          "Source": "Data_extract_Fluvoxamine.Jeppesen1996_coff.2 (ID = With_Fluvox).Time"
+        },
+        "Values": [
+          168.977524,
+          169.335678,
+          169.8132,
+          171.126389,
+          171.484528,
+          172.320175,
+          174.23027,
+          175.901611,
+          180.438065,
+          182.467545,
+          192.25676,
+          204.194809,
+          216.132874,
+          240.128372,
+          287.76123
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox",
+      "ExtendedProperties": [
+        {
+          "Name": "File",
+          "Value": "Data_extract_Fluvoxamine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Culm-Merdek2005_coff"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Caffeine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "ID",
+          "Value": "No_Fluvox"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox|ObservedData|Peripheral Venous Blood|Plasma|Caffeine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-06-28T09:53:04.0714906+02:00",
+                "Source": "Data_extract_Fluvoxamine.Culm-Merdek2005_coff.1 (ID = No_Fluvox).SD",
+                "MolWeight": 194.2
+              },
+              "Values": [
+                0.133680061,
+                2.40624118,
+                1.38136065,
+                0.8020804,
+                0.8020804,
+                1.02488053,
+                0.8020804,
+                0.935760438,
+                0.8912004,
+                0.8020804,
+                0.8912004,
+                0.267360121
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox|ObservedData|Peripheral Venous Blood|Plasma|Caffeine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-06-28T09:53:04.0714906+02:00",
+            "Source": "Data_extract_Fluvoxamine.Culm-Merdek2005_coff.1 (ID = No_Fluvox).CentralMeasure",
+            "MolWeight": 194.2
+          },
+          "Values": [
+            0.151578948,
+            4.34526348,
+            5.1705265,
+            4.8,
+            4.54736853,
+            4.294737,
+            3.92421055,
+            3.553684,
+            3.031579,
+            2.52631569,
+            1.95368421,
+            0.269473672
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-06-28T09:53:04.0714906+02:00",
+          "Source": "Data_extract_Fluvoxamine.Culm-Merdek2005_coff.1 (ID = No_Fluvox).Time"
+        },
+        "Values": [
+          24.5,
+          25.5,
+          26.0,
+          26.5,
+          27.0,
+          27.5,
+          28.0,
+          29.0,
+          30.0,
+          31.0,
+          33.0,
+          49.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI",
+      "ExtendedProperties": [
+        {
+          "Name": "File",
+          "Value": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Caffeine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc ",
+          "RelatedColumns": [
+            {
+              "Name": "SD ",
+              "QuantityInfo": {
+                "Name": "SD ",
+                "Path": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI|ObservedData|Peripheral Venous Blood|Plasma|Caffeine|SD "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-11-07T15:24:05.9068993+01:00",
+                "Source": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI.Sheet1.SD [ng/mL]",
+                "MolWeight": 194.2
+              },
+              "Values": [
+                1.29716957,
+                2.752531,
+                2.11976552,
+                2.11976552,
+                1.645189,
+                1.92993522,
+                1.83502162,
+                1.70846748,
+                1.74010527,
+                1.74010527,
+                1.74010527,
+                2.15140343
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc ",
+            "Path": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI|ObservedData|Peripheral Venous Blood|Plasma|Caffeine|Conc "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-11-07T15:24:05.9068993+01:00",
+            "Source": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI.Sheet1.Conc [ng/mL]",
+            "MolWeight": 194.2
+          },
+          "Values": [
+            1.411061,
+            5.285501,
+            7.127055,
+            7.03138971,
+            7.246637,
+            7.437967,
+            6.911808,
+            6.959641,
+            6.756353,
+            6.624813,
+            6.51719,
+            5.536622
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-11-07T15:24:05.9068993+01:00",
+          "Source": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI.Sheet1.Time [h]"
+        },
+        "Values": [
+          25.0,
+          25.5,
+          26.0,
+          26.5,
+          27.0,
+          27.5,
+          28.0,
+          29.0,
+          30.0,
+          31.0,
+          33.0,
+          49.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ]
+}

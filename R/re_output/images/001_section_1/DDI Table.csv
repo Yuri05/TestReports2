@@ -1,0 +1,2 @@
+"DataID","Perpetrator","Victim","Predicted AUC Ratio","Observed AUC Ratio","Pred/Obs AUC Ratio","Predicted CMAX Ratio","Observed CMAX Ratio","Pred/Obs CMAX Ratio","Reference"
+14006,"Fluvoxamine, 100 mg, PO, ","Caffeine, PO",4.35497280022293,13.71,0.317649365442956,1.34491352116747,1.4,0.960652515119624,"Culm-Merdek 2005"

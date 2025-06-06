@@ -1,0 +1,36 @@
+{
+  "SimulationMappings": [
+    {
+      "Project": "Caffeine-Fluvoxamine-DDI",
+      "Simulation": "Caffeine 250mg po",
+      "Path": "Caffeine-Fluvoxamine-DDI/Caffeine 250mg po/",
+      "SimulationFile": "Caffeine 250mg po"
+    },
+    {
+      "Project": "Caffeine-Fluvoxamine-DDI",
+      "Simulation": "Caffeine 250mg 120mg predose po100mg Fluvox",
+      "Path": "Caffeine-Fluvoxamine-DDI/Caffeine 250mg 120mg predose po100mg Fluvox/",
+      "SimulationFile": "Caffeine 250mg 120mg predose po100mg Fluvox"
+    }
+  ],
+  "ObservedDataMappings": [
+    {
+      "Id": "Jeppesen1996.Caffeine.200.po.day8.No_Fluvox",
+      "Path": "ObservedData/Jeppesen1996.Caffeine.200.po.day8.No_Fluvox.csv"
+    },
+    {
+      "Id": "Jeppesen1996.Caffeine.200.po.day8.With_Fluvox",
+      "Path": "ObservedData/Jeppesen1996.Caffeine.200.po.day8.With_Fluvox.csv"
+    },
+    {
+      "Id": "Culm-Merdeck2005.Caffeine.250.po.No_Fluvox",
+      "Path": "ObservedData/Culm-Merdeck2005.Caffeine.250.po.No_Fluvox.csv"
+    },
+    {
+      "Id": "CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI",
+      "Path": "ObservedData/CulmMerdek2005_250mgSD_NA_NA_Caffeine_DDI.csv"
+    }
+  ],
+  "Plots": [],
+  "Inputs": []
+}
